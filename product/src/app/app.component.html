@@ -1,0 +1,5 @@
+<app-product (totalPriceChange)="updateTotalPrice($event)"></app-product>
+<div class="p-3 fs-5 d-flex justify-content-center align-items-end ms-auto rounded-2">
+    <div class="title fw-bold text-danger me-2">Tổng tiền:</div>
+    <div class="total fw-bold">{{totalPrice | number:'1.0-0'}}đ</div>
+</div>
